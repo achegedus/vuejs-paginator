@@ -1,12 +1,12 @@
 var config = require('./webpack.config.js')
 
 config.entry = {
-  'vuejs-paginator': './src/index.js',
+  'vuejs-paginator-axios': './src/index.js',
 }
 
 config.output = {
   filename: './dist/[name].js',
-  library: 'VuePaginator',
+  library: 'VuePaginatorAxios',
   libraryTarget: 'umd'
 }
 

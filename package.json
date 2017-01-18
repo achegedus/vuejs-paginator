@@ -2,12 +2,12 @@
   "name": "vuejs-paginator",
   "version": "2.0.0",
   "description": "A Vue.js plugin to easily integrate pagination.",
-  "main": "dist/vuejs-paginator.js",
-  "author": "Alex Kyriakidis <alex@vuejsfeed.com>",
+  "main": "dist/vuejs-paginator-axios.js",
+  "author": "Adam Hegedus <adam@heged.us>, Alex Kyriakidis <alex@vuejsfeed.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "hootlex/vuejs-paginator"
+    "url": "achegedus/vuejs-paginator-axios"
   },
   "homepage": "",
   "directories": {
@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "vue": "^2.0.0",
-    "vue-resource": "^1.0.3"
+    "axios": "^0.15.3"
   },
   "files": [
     "LICENSE",

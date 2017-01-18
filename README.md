@@ -1,5 +1,5 @@
-# Vue.js Paginator [![CircleCI](https://circleci.com/gh/hootlex/vuejs-paginator.svg?style=shield&circle-token=:circle-ci-badge-token)](https://circleci.com/gh/hootlex/vuejs-paginator) [![npm downloads](https://img.shields.io/npm/dt/vuejs-paginator.svg)](https://www.npmjs.com/package/vuejs-paginator) <a href="https://www.npmjs.com/package/vuejs-paginator"><img src="https://img.shields.io/npm/v/vuejs-paginator.svg" alt="Version"></a> [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE)
-> A Vue.js plugin to easily integrate pagination in your projects.
+# Vue.js Paginator-Axios [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE)
+> A Vue.js plugin to easily integrate pagination in your projects. This is a fork of Vue.js Paginator by Hootlex, which used vue.resource
 
 VueJs Paginator is a simple but powerful plugin since it gives you access on how to render the data, instead of using a predefined table.
 
@@ -8,11 +8,9 @@ VueJs Paginator is a simple but powerful plugin since it gives you access on how
 The way you use it is similar to Laravel's paginator.
 
 ## Installation
-> For Vue 1.* use [v1.0.15](https://github.com/hootlex/vuejs-paginator/tree/v1.0.15).
-
 ### Through npm
 ``` bash
-npm install vuejs-paginator --save-dev
+npm install vuejs-paginator-axios --save-dev
 ```
 
 ### From a cdn
